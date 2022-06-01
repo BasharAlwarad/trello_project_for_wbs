@@ -5,24 +5,53 @@
 nav {
   color: red;
 }
-#hero-section {
-  color: blue;
-}
-#our_story-section {
-  color: green;
-}
+
+
 #watch-section {
   color: darkred;
 }
+
 #expertise-section {
   color: fuchsia;
 }
+
 #team-section {
   color: yellowgreen;
 }
+
 #contact_client-section {
   color: lightsalmon;
 }
+
 footer {
   color: blueviolet;
+}
+
+/* Styles for Alex's blocks */
+.header-block {
+  min-height: 600px;
+  background-image: url('bgk-header.png');
+  background-size: 100%;
+  max-width: 100%;
+}
+
+.header-logo_link {
+  color: #0dcaf0;
+  text-decoration: none;
+}
+
+.header-content {
+  text-align: center;
+  color: aliceblue;
+}
+
+.header-content_span {
+  color: #0dcaf0;
+
+}
+
+.header-p {}
+
+.our-story_block {
+  max-width: 60%;
 }
