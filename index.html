@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+<<<<<<< HEAD
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -12,16 +13,72 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+=======
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+>>>>>>> d5f4509bb1e6a89a987c093623bfa15db77b53cc
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav>navigation</nav>
-      <section id="hero-section">hero section</section>
+    <header class="header-block">
+      <nav class="m-auto row container">
+          <div class="header-logo col-4 text-center my-3"> 
+              <a class="header-logo_link text-white fs-4" href="#">
+                  <img src="./images/logo.png" alt="img-logo" class="logo">
+                  tajam
+              </a>
+          </div>
+          <ul class="nav col-8 my-3 fs-6 fw-bold">
+              <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#our_story-section">ABOUT</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#expertise-section">EXPERTISE</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#team-section">TEAMS</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">WORKS</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">PEOPLE SAY</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#contact_client-section">CONTACT</a>
+              </li>
+          </ul>
+      </nav>
+      <section id="hero-section">
+        <div class="header-content my-5">
+          <h1 class="pt-5">We Are Awesome Creative Agency</h1>
+          <span class="header-content_span">_________</span>
+          <p class="header-p w-50 mx-auto my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quod, beatae magni temporibus quaerat vel, laborum ex dicta, architecto quas dolore laboriosam. Dolores ipsum corporis aut alias nihil? Odio, rem!</p>
+          <button type="button" class="btn btn-outline-info">LEARN MORE</button>
+        </div>
+      </section>
     </header>
 
     <main>
-      <section id="our_story-section">our story section</section>
+      <section id="our_story-section" class="container">
+        <div class="our-story_block mx-auto my-5">
+          <div class="row">
+              <div class="our-story_img col-4 py-3">
+                  <img src="./images/logo-big.png" alt="Story Logo" class="our-story_logo">
+              </div>
+              <div class="our-story_content col-8 py-3">
+                  <h1>
+                      OUR STORY
+                  </h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos expedita illum ipsam, maiores odio ut, illo nisi blanditiis ex itaque quis ad veritatis nesciunt voluptatem laborum ea labore repellendus enim!</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ratione quia dolor tempore, repellendus recusandae. Beatae facere aut, consequatur voluptatem consequuntur, totam veniam debitis doloremque voluptate voluptatibus tempora consectetur sit.</p>
+                  <button type="button" class="btn btn-outline-info">LEARN MORE</button>
+              </div>
+          </div>
+      </div>
+      </section>
       <section id="watch-section">watch section</section>
       <section id="expertise-section">expertise section</section>
       <section id="team-section">team section</section>

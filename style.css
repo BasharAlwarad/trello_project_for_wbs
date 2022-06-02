@@ -7,26 +7,25 @@
 nav {
   color: red;
 }
-#hero-section {
-  color: blue;
-}
-#our_story-section {
-  color: green;
-}
+
 #watch-section {
   color: darkred;
 }
+
 #expertise-section {
   color: fuchsia;
 }
+
 #team-section {
   color: yellowgreen;
 }
+
 #contact_client-section {
   color: lightsalmon;
 }
 
-footer >*{
+/* <<<<<<< HEAD */
+footer > * {
   color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -35,29 +34,26 @@ footer >*{
 }
 
 footer {
-  background: url(./photoshop/design-assets/bgk-footer.png)
-  no-repeat center ;
+  background: url(./photoshop/design-assets/bgk-footer.png) no-repeat center;
   background-size: 100%;
   display: flex;
   align-content: center;
   justify-content: center;
 }
 
-footer .container{
-  margin:3rem 0;
+footer .container {
+  margin: 3rem 0;
   display: flex;
   max-width: 75%;
   flex-flow: column nowrap;
   align-items: center;
-  
 }
 
-footer .container .first >*{
+footer .container .first > * {
   max-width: 33%;
 }
 
-footer .container .first{
-
+footer .container .first {
   width: 100%;
   min-height: 130px;
   display: flex;
@@ -66,35 +62,34 @@ footer .container .first{
   align-content: space-between;
 }
 
-footer .container .first .lorem-info, footer .container .first .our-studio, footer .container .first  .stay-in-touch{
+footer .container .first .lorem-info,
+footer .container .first .our-studio,
+footer .container .first .stay-in-touch {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
 }
 
-footer .container .first .lorem-info .label{
+footer .container .first .lorem-info .label {
   display: flex;
   width: 100%;
   height: 3rem;
-
 }
 
-footer .container .first .lorem-info .label .tajam-1{
-width: 20%;
-height: 100%;
-background: no-repeat center url(./photoshop/design-assets/png/logo.png);
+footer .container .first .lorem-info .label .tajam-1 {
+  width: 20%;
+  height: 100%;
+  background: no-repeat center url(./photoshop/design-assets/png/logo.png);
 }
 
-footer .container .first .lorem-info .label .tajam-2{
-display: flex;
-align-items: center;
-font-size: larger;
-color: rgb(18, 150, 183);
+footer .container .first .lorem-info .label .tajam-2 {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  color: rgb(18, 150, 183);
 }
 
-
-
-footer .container .first .our-studio > div{
+footer .container .first .our-studio > div {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -105,22 +100,22 @@ footer .container .first .our-studio > div > i {
 }
 
 footer .container .first .stay-in-touch form {
-  opacity: .5;
+  opacity: 0.5;
   display: flex;
   justify-content: space-between;
 }
 
 footer .container .first .stay-in-touch form input {
-background: rgb(37, 37, 91);
-height: 2.2rem;
-text-align: center;
-border: 1px solid gray;
+  background: rgb(37, 37, 91);
+  height: 2.2rem;
+  text-align: center;
+  border: 1px solid gray;
 }
 
 footer .container .first .stay-in-touch form button {
   height: 100%;
   width: 3rem;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   background-color: rgb(176, 165, 165);
   background-image: url(./photoshop/design-assets/png/paper122.png);
   background-position: center;
@@ -129,57 +124,87 @@ footer .container .first .stay-in-touch form button {
   border: none;
 }
 
-footer .container .first .stay-in-touch .social{
+footer .container .first .stay-in-touch .social {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-footer .container .first .stay-in-touch .social > *{
+footer .container .first .stay-in-touch .social > * {
   border-radius: 100%;
-  width:1.7rem;
+  width: 1.7rem;
   height: 1.7rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-footer .container .first .stay-in-touch .social .facebook{
-  background-image:url(./photoshop/design-assets/png/facebook.png);
+footer .container .first .stay-in-touch .social .facebook {
+  background-image: url(./photoshop/design-assets/png/facebook.png);
 }
-footer .container .first .stay-in-touch .social .twitter{
-  background-image:url(./photoshop/design-assets/png/twitter.png);
+footer .container .first .stay-in-touch .social .twitter {
+  background-image: url(./photoshop/design-assets/png/twitter.png);
 }
-footer .container .first .stay-in-touch .social .dribbble{
-  background-image:url(./photoshop/design-assets/png/dribbble.png);
+footer .container .first .stay-in-touch .social .dribbble {
+  background-image: url(./photoshop/design-assets/png/dribbble.png);
 }
-footer .container .first .stay-in-touch .social .instagram{
-  background-image:url(./photoshop/design-assets/png/instagram.png);
+footer .container .first .stay-in-touch .social .instagram {
+  background-image: url(./photoshop/design-assets/png/instagram.png);
 }
-footer .container .first .stay-in-touch .social .google{
-  background-image:url(./photoshop/design-assets/png/gplus.png);
+footer .container .first .stay-in-touch .social .google {
+  background-image: url(./photoshop/design-assets/png/gplus.png);
 }
-footer .container .first .stay-in-touch .social .youtube{
-  background-image:url(./photoshop/design-assets/png/youtube.png);
+footer .container .first .stay-in-touch .social .youtube {
+  background-image: url(./photoshop/design-assets/png/youtube.png);
 }
 
-
-
-footer .container .second{
+footer .container .second {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  
-  
 }
 
-footer .container .second>*{
-  font-size:smaller;
+footer .container .second > * {
+  font-size: smaller;
 }
 
-footer .container .second .terms{
+footer .container .second .terms {
   width: 32%;
   display: flex;
   justify-content: space-between;
 }
 
+/* ======= */
+/* footer {
+  color: blueviolet;
+} */
+
+/* Styles for Alex's blocks */
+.header-block {
+  min-height: 600px;
+  background-image: url('bgk-header.png');
+  background-size: 100%;
+  max-width: 100%;
+}
+
+.header-logo_link {
+  color: #0dcaf0;
+  text-decoration: none;
+}
+
+.header-content {
+  text-align: center;
+  color: aliceblue;
+}
+
+.header-content_span {
+  color: #0dcaf0;
+}
+
+.header-p {
+}
+
+.our-story_block {
+  max-width: 60%;
+}
+/* >>>>>>> d5f4509bb1e6a89a987c093623bfa15db77b53cc */
