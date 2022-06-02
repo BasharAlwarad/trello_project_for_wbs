@@ -7,8 +7,22 @@ nav {
 }
 
 
+/* Watch section -Anoj- */
 #watch-section {
-  color: darkred;
+  min-height: 550px;
+  background-image: url('photoshop/design-assets/bgk-middle.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+} 
+
+#watch-section figcaption {
+  margin: 40px 0;
 }
 
 #expertise-section {
@@ -19,8 +33,60 @@ nav {
   color: yellowgreen;
 }
 
+
+/* Contact client section -Anoj- */
 #contact_client-section {
-  color: lightsalmon;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 75%;
+}
+
+#contact_client-section h2 {
+  text-transform: uppercase;
+}
+
+.contact-form, .client-list {
+  width: 50%;
+}
+
+.contact-form {
+  margin-right: 60px ;
+}
+
+.client-list {
+  margin-left: 60px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form input,.input-form textarea {
+  margin-top: 40px;
+  border: 1px solid rgb(182, 186, 190);
+  padding: 10px;
+  color:rgb(182, 186, 190)
+}
+
+#submit {
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 40px;
+  color: rgb(0, 221, 221);
+  border: 1px solid rgb(0, 221, 221);
+}
+
+.flex-container-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container-logo img {
+  width: 150px;
+  margin-top: 40px;
+  margin-right: 80px;
 }
 
 footer {
