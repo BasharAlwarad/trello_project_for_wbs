@@ -2,6 +2,8 @@
 
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 nav {
@@ -9,17 +11,244 @@ nav {
 }
 
 
+
+/* Watch section -Anoj- */
+
 #watch-section {
-  color: darkred;
+  min-height: 550px;
+  background-image: url('photoshop/design-assets/bgk-middle.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+} 
+
+#watch-section figcaption {
+  margin: 40px 0;
 }
 
+#expertise-section {
+  color: fuchsia;
+}
+
+#team-section {
+  color: yellowgreen;
+}
+
+
+/* Contact client section -Anoj- */
 #contact_client-section {
-  color: lightsalmon;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 75%;
+}
+
+#contact_client-section h2 {
+  text-transform: uppercase;
+}
+
+.contact-form, .client-list {
+  width: 50%;
+}
+
+.contact-form {
+  margin-right: 60px ;
+}
+
+.client-list {
+  margin-left: 60px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form input,.input-form textarea {
+  margin-top: 40px;
+  border: 1px solid rgb(182, 186, 190);
+  padding: 10px;
+  color:rgb(182, 186, 190)
+}
+
+#submit {
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 40px;
+  color: rgb(0, 221, 221);
+  border: 1px solid rgb(0, 221, 221);
+}
+
+.flex-container-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container-logo img {
+  width: 150px;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+
+/* <<<<<<< HEAD */
+footer > * {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 footer {
-  color: blueviolet;
+  background: url(./photoshop/design-assets/bgk-footer.png) no-repeat center;
+  background-size: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
+
+footer .container {
+  margin: 3rem 0;
+  display: flex;
+  max-width: 75%;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+footer .container .first > * {
+  max-width: 33%;
+}
+
+footer .container .first {
+  width: 100%;
+  min-height: 130px;
+  display: flex;
+  margin-bottom: 2.5rem;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+footer .container .first .lorem-info,
+footer .container .first .our-studio,
+footer .container .first .stay-in-touch {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+footer .container .first .lorem-info .label {
+  display: flex;
+  width: 100%;
+  height: 3rem;
+}
+
+footer .container .first .lorem-info .label .tajam-1 {
+  width: 20%;
+  height: 100%;
+  background: no-repeat center url(./photoshop/design-assets/png/logo.png);
+}
+
+footer .container .first .lorem-info .label .tajam-2 {
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  color: rgb(18, 150, 183);
+}
+
+footer .container .first .our-studio > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+footer .container .first .our-studio > div > i {
+  margin-right: 1rem;
+}
+
+footer .container .first .stay-in-touch form {
+  opacity: 0.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .first .stay-in-touch form input {
+  background: rgb(37, 37, 91);
+  height: 2.2rem;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+footer .container .first .stay-in-touch form button {
+  height: 100%;
+  width: 3rem;
+  margin-left: 0.5rem;
+  background-color: rgb(176, 165, 165);
+  background-image: url(./photoshop/design-assets/png/paper122.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+  border: none;
+}
+
+footer .container .first .stay-in-touch .social {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+footer .container .first .stay-in-touch .social > * {
+  border-radius: 100%;
+  width: 1.7rem;
+  height: 1.7rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer .container .first .stay-in-touch .social .facebook {
+  background-image: url(./photoshop/design-assets/png/facebook.png);
+}
+footer .container .first .stay-in-touch .social .twitter {
+  background-image: url(./photoshop/design-assets/png/twitter.png);
+}
+footer .container .first .stay-in-touch .social .dribbble {
+  background-image: url(./photoshop/design-assets/png/dribbble.png);
+}
+footer .container .first .stay-in-touch .social .instagram {
+  background-image: url(./photoshop/design-assets/png/instagram.png);
+}
+footer .container .first .stay-in-touch .social .google {
+  background-image: url(./photoshop/design-assets/png/gplus.png);
+}
+footer .container .first .stay-in-touch .social .youtube {
+  background-image: url(./photoshop/design-assets/png/youtube.png);
+}
+
+footer .container .second {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .second > * {
+  font-size: smaller;
+}
+
+footer .container .second .terms {
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ======= */
+/* footer {
+  color: blueviolet;
+} */
 
 /* Styles for Alex's blocks */
 .header-block {
@@ -41,10 +270,10 @@ footer {
 
 .header-content_span {
   color: #0dcaf0;
-
 }
 
-.header-p {}
+.header-p {
+}
 
 .our-story_block {
   max-width: 60%;
