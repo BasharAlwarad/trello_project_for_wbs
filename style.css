@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 * {
   margin: 0;
 }
@@ -9,14 +11,6 @@ nav {
 
 #watch-section {
   color: darkred;
-}
-
-#expertise-section {
-  color: fuchsia;
-}
-
-#team-section {
-  color: yellowgreen;
 }
 
 #contact_client-section {
@@ -54,4 +48,116 @@ footer {
 
 .our-story_block {
   max-width: 60%;
+}
+
+#expertise-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 70px;
+  color: black;
+}
+
+#team-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url('bgk-header.png');
+  color: white;
+}
+
+.expertise-header,
+.team-header {
+  font-family: 'Playfair Display', serif;
+}
+
+.expertise-header h2,
+.team-header h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.expertise-header hr,
+.team-header hr {
+  width: 50px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.expertise-body,
+.team-body {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-body {
+  margin-bottom: 40px;
+}
+
+.expertise-body-card {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+
+.expertise-body-card img {
+  height: 52px;
+  width:auto;
+  margin-bottom: 10px;
+}
+
+.expertise-body-card h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.expertise-body-card p {
+  margin-top: 20px;
+}
+
+.top-left {
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.top-right {
+  border-left: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.top-center {
+  border-bottom: 1px solid lightgrey;
+}
+
+.bottom-left {
+  border-right: 1px solid lightgrey;
+}
+
+.bottom-right {
+  border-left: 1px solid lightgrey;
+}
+
+.team-body-card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid gray;
+  margin: 10px;
+}
+
+.team-body-card img {
+  height: 220px;
+  width: 200px;
+  background-color: white;
+}
+
+.team-body-card h2 {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team-body-card p {
+  font-size: 12px;
 }
